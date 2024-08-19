@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		643E22EC2C72B6DC00357639 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 643E22EB2C72B6DC00357639 /* FirebaseAnalytics */; };
+		643E22EE2C72B6DC00357639 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 643E22ED2C72B6DC00357639 /* FirebaseAuth */; };
+		643E22F02C72B6DC00357639 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 643E22EF2C72B6DC00357639 /* FirebaseFirestore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		641CFA262C6830C60044DA37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 641CFA0D2C6830C20044DA37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641CFA142C6830C20044DA37;
+			remoteInfo = "SiemensDemo Tracker";
+		};
+		641CFA302C6830C60044DA37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 641CFA0D2C6830C20044DA37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641CFA142C6830C20044DA37;
+			remoteInfo = "SiemensDemo Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		641CFA152C6830C20044DA37 /* SiemensDemo Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SiemensDemo Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		641CFA252C6830C60044DA37 /* SiemensDemo TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SiemensDemo TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		641CFA2F2C6830C60044DA37 /* SiemensDemo TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SiemensDemo TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		643E22E82C72B69000357639 /* Exceptions for "SiemensDemo Tracker" folder in "SiemensDemo TrackerTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-Info.plist",
+			);
+			target = 641CFA242C6830C60044DA37 /* SiemensDemo TrackerTests */;
+		};
+		643E22E92C72B69000357639 /* Exceptions for "SiemensDemo Tracker" folder in "SiemensDemo TrackerUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-Info.plist",
+			);
+			target = 641CFA2E2C6830C60044DA37 /* SiemensDemo TrackerUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		641CFA172C6830C20044DA37 /* SiemensDemo Tracker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				643E22E82C72B69000357639 /* Exceptions for "SiemensDemo Tracker" folder in "SiemensDemo TrackerTests" target */,
+				643E22E92C72B69000357639 /* Exceptions for "SiemensDemo Tracker" folder in "SiemensDemo TrackerUITests" target */,
+			);
+			path = "SiemensDemo Tracker";
+			sourceTree = "<group>";
+		};
+		641CFA282C6830C60044DA37 /* SiemensDemo TrackerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "SiemensDemo TrackerTests";
+			sourceTree = "<group>";
+		};
+		641CFA322C6830C60044DA37 /* SiemensDemo TrackerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "SiemensDemo TrackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		641CFA122C6830C20044DA37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				643E22EC2C72B6DC00357639 /* FirebaseAnalytics in Frameworks */,
+				643E22EE2C72B6DC00357639 /* FirebaseAuth in Frameworks */,
+				643E22F02C72B6DC00357639 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641CFA222C6830C60044DA37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641CFA2C2C6830C60044DA37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		641CFA0C2C6830C10044DA37 = {
+			isa = PBXGroup;
+			children = (
+				641CFA172C6830C20044DA37 /* SiemensDemo Tracker */,
+				641CFA282C6830C60044DA37 /* SiemensDemo TrackerTests */,
+				641CFA322C6830C60044DA37 /* SiemensDemo TrackerUITests */,
+				643E22DF2C72B0E000357639 /* Frameworks */,
+				641CFA162C6830C20044DA37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		641CFA162C6830C20044DA37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				641CFA152C6830C20044DA37 /* SiemensDemo Tracker.app */,
+				641CFA252C6830C60044DA37 /* SiemensDemo TrackerTests.xctest */,
+				641CFA2F2C6830C60044DA37 /* SiemensDemo TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		643E22DF2C72B0E000357639 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		641CFA142C6830C20044DA37 /* SiemensDemo Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 641CFA392C6830C60044DA37 /* Build configuration list for PBXNativeTarget "SiemensDemo Tracker" */;
+			buildPhases = (
+				641CFA112C6830C20044DA37 /* Sources */,
+				641CFA122C6830C20044DA37 /* Frameworks */,
+				641CFA132C6830C20044DA37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				641CFA172C6830C20044DA37 /* SiemensDemo Tracker */,
+			);
+			name = "SiemensDemo Tracker";
+			packageProductDependencies = (
+				643E22EB2C72B6DC00357639 /* FirebaseAnalytics */,
+				643E22ED2C72B6DC00357639 /* FirebaseAuth */,
+				643E22EF2C72B6DC00357639 /* FirebaseFirestore */,
+			);
+			productName = "SiemensDemo Tracker";
+			productReference = 641CFA152C6830C20044DA37 /* SiemensDemo Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		641CFA242C6830C60044DA37 /* SiemensDemo TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 641CFA3C2C6830C60044DA37 /* Build configuration list for PBXNativeTarget "SiemensDemo TrackerTests" */;
+			buildPhases = (
+				641CFA212C6830C60044DA37 /* Sources */,
+				641CFA222C6830C60044DA37 /* Frameworks */,
+				641CFA232C6830C60044DA37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				641CFA272C6830C60044DA37 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				641CFA282C6830C60044DA37 /* SiemensDemo TrackerTests */,
+			);
+			name = "SiemensDemo TrackerTests";
+			packageProductDependencies = (
+			);
+			productName = "SiemensDemo TrackerTests";
+			productReference = 641CFA252C6830C60044DA37 /* SiemensDemo TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		641CFA2E2C6830C60044DA37 /* SiemensDemo TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 641CFA3F2C6830C60044DA37 /* Build configuration list for PBXNativeTarget "SiemensDemo TrackerUITests" */;
+			buildPhases = (
+				641CFA2B2C6830C60044DA37 /* Sources */,
+				641CFA2C2C6830C60044DA37 /* Frameworks */,
+				641CFA2D2C6830C60044DA37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				641CFA312C6830C60044DA37 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				641CFA322C6830C60044DA37 /* SiemensDemo TrackerUITests */,
+			);
+			name = "SiemensDemo TrackerUITests";
+			packageProductDependencies = (
+			);
+			productName = "SiemensDemo TrackerUITests";
+			productReference = 641CFA2F2C6830C60044DA37 /* SiemensDemo TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		641CFA0D2C6830C20044DA37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					641CFA142C6830C20044DA37 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					641CFA242C6830C60044DA37 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 641CFA142C6830C20044DA37;
+					};
+					641CFA2E2C6830C60044DA37 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 641CFA142C6830C20044DA37;
+					};
+				};
+			};
+			buildConfigurationList = 641CFA102C6830C20044DA37 /* Build configuration list for PBXProject "SiemensDemo Tracker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 641CFA0C2C6830C10044DA37;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				643E22EA2C72B6DC00357639 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 641CFA162C6830C20044DA37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				641CFA142C6830C20044DA37 /* SiemensDemo Tracker */,
+				641CFA242C6830C60044DA37 /* SiemensDemo TrackerTests */,
+				641CFA2E2C6830C60044DA37 /* SiemensDemo TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		641CFA132C6830C20044DA37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641CFA232C6830C60044DA37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641CFA2D2C6830C60044DA37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		641CFA112C6830C20044DA37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641CFA212C6830C60044DA37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641CFA2B2C6830C60044DA37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		641CFA272C6830C60044DA37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641CFA142C6830C20044DA37 /* SiemensDemo Tracker */;
+			targetProxy = 641CFA262C6830C60044DA37 /* PBXContainerItemProxy */;
+		};
+		641CFA312C6830C60044DA37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641CFA142C6830C20044DA37 /* SiemensDemo Tracker */;
+			targetProxy = 641CFA302C6830C60044DA37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		641CFA372C6830C60044DA37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		641CFA382C6830C60044DA37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		641CFA3A2C6830C60044DA37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SiemensDemo Tracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SiemensDemo-Tracker-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Captura de codigos de barras y QR";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gilcoxca.SiemensDemo-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		641CFA3B2C6830C60044DA37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SiemensDemo Tracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SiemensDemo-Tracker-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Captura de codigos de barras y QR";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gilcoxca.SiemensDemo-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		641CFA3D2C6830C60044DA37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gilcoxca.SiemensDemo-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SiemensDemo Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SiemensDemo Tracker";
+			};
+			name = Debug;
+		};
+		641CFA3E2C6830C60044DA37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gilcoxca.SiemensDemo-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SiemensDemo Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SiemensDemo Tracker";
+			};
+			name = Release;
+		};
+		641CFA402C6830C60044DA37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gilcoxca.SiemensDemo-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SiemensDemo Tracker";
+			};
+			name = Debug;
+		};
+		641CFA412C6830C60044DA37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gilcoxca.SiemensDemo-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SiemensDemo Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		641CFA102C6830C20044DA37 /* Build configuration list for PBXProject "SiemensDemo Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				641CFA372C6830C60044DA37 /* Debug */,
+				641CFA382C6830C60044DA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		641CFA392C6830C60044DA37 /* Build configuration list for PBXNativeTarget "SiemensDemo Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				641CFA3A2C6830C60044DA37 /* Debug */,
+				641CFA3B2C6830C60044DA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		641CFA3C2C6830C60044DA37 /* Build configuration list for PBXNativeTarget "SiemensDemo TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				641CFA3D2C6830C60044DA37 /* Debug */,
+				641CFA3E2C6830C60044DA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		641CFA3F2C6830C60044DA37 /* Build configuration list for PBXNativeTarget "SiemensDemo TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				641CFA402C6830C60044DA37 /* Debug */,
+				641CFA412C6830C60044DA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		643E22EA2C72B6DC00357639 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		643E22EB2C72B6DC00357639 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 643E22EA2C72B6DC00357639 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		643E22ED2C72B6DC00357639 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 643E22EA2C72B6DC00357639 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		643E22EF2C72B6DC00357639 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 643E22EA2C72B6DC00357639 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 641CFA0D2C6830C20044DA37 /* Project object */;
+}
